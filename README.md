@@ -70,3 +70,69 @@ When you start the application, a 30-second calibration exercise will guide you 
 | Wink Left Eye (hold 0.5s) | Double Click |
 | Wink Right Eye | Right Click |
 
+
+### Keyboard Shortcuts
+
+- **Q**: Quit application
+- **R**: Restart calibration
+
+## How It Works
+
+The application uses computer vision and machine learning:
+
+1. **Face Detection**: Uses MediaPipe Face Mesh to detect 468 facial landmarks
+2. **Eye Tracking**: Tracks iris position relative to eye contours
+3. **Gesture Recognition**: Detects eye aspect ratio changes for blinks and winks
+4. **Smooth Movement**: Velocity-based cursor smoothing with dead zone for precision
+5. **Calibration**: Learns your neutral eye position for personalized thresholds
+
+## Project Structure
+
+```
+Eye_Controlled_Mouse_Interface/
+├── Code_bases/
+│   ├── eye_control.py      # Main application
+│   ├── requirements.txt    # Python dependencies
+│   └── venv/               # Virtual environment
+└── README.md              # This file
+```
+
+## Dependencies
+
+- `opencv-python` - Video capture and image processing
+- `mediapipe` - Face mesh detection
+- `pyautogui` - Mouse control
+- `numpy` - Numerical operations
+- `fastapi` & `uvicorn` - Web server (for future extensions)
+
+## Troubleshooting
+
+### Camera not detected
+- Ensure your webcam is connected and not being used by another application
+- Try changing the camera index in the code
+
+### Cursor movement is erratic
+- Ensure good lighting conditions
+- Re-run calibration by pressing 'R'
+- Adjust distance from camera (recommended: 1-2 feet)
+
+### Clicks not registering
+- Blink/wink more deliberately during calibration
+- Check that your eyes are clearly visible to the camera
+
+### Performance issues
+- Lower camera resolution
+- Close other applications using the camera
+
+## Future Enhancements
+
+- Web-based interface for settings
+- Custom gesture mapping
+- Scroll functionality
+- Keyboard input via eye gestures
+- Multiple user profiles
+
+
+
+
+
