@@ -108,7 +108,9 @@ Eye_Controlled_Mouse_Interface/
 
 ## Workflow
 ![Eye Controlled Mouse Demo](images/Photo1.png.jpeg)
-![Eye](images/Photo5.jpeg)
+
+
+![Eye_control](images/Photo5.jpeg)
 
 ## Troubleshooting
 
