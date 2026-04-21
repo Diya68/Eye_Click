@@ -85,7 +85,7 @@ The application uses computer vision and machine learning:
 3. **Gesture Recognition**: Detects eye aspect ratio changes for blinks and winks
 4. **Smooth Movement**: Velocity-based cursor smoothing with dead zone for precision
 5. **Calibration**: Learns your neutral eye position for personalized thresholds
-![Eye Controlled Mouse Demo](images/Photo6.jpeg)
+![Eye Controlled Mouse](images/photo6.jpeg)
 
 ## Project Structure
 
@@ -108,7 +108,7 @@ Eye_Controlled_Mouse_Interface/
 
 ## Workflow
 ![Eye Controlled Mouse Demo](images/Photo1.png.jpeg)
-![Eye Controlled Mouse Demo](images/Photo5.jpeg)
+![Eye](images/Photo5.jpeg)
 
 ## Troubleshooting
 
