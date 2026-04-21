@@ -106,7 +106,7 @@ Eye_Controlled_Mouse_Interface/
 - `fastapi` & `uvicorn` - Web server (for future extensions)
 
 ## Workflow
-![Eye Controlled Mouse Demo](images/Photo1.png)
+![Eye Controlled Mouse Demo](images/Photo1.png.jpeg)
 
 ## Troubleshooting
 
