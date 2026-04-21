@@ -105,6 +105,9 @@ Eye_Controlled_Mouse_Interface/
 - `numpy` - Numerical operations
 - `fastapi` & `uvicorn` - Web server (for future extensions)
 
+## Workflow
+![Eye Controlled Mouse Demo](images/Photo1.png)
+
 ## Troubleshooting
 
 ### Camera not detected
