@@ -1,4 +1,4 @@
-# Eye_Controlled_Mouse_Interface
+# Eye_Click
 
 A Python application that enables hands-free computer control using eye tracking and facial gestures. Control your mouse cursor, click, and scroll using only your eyes and simple eye movements.
 
